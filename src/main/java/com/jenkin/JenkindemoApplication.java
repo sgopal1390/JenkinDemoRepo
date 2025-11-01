@@ -13,11 +13,11 @@ public class JenkindemoApplication {
 
 	@PostConstruct
 	public void init(){
-		logger.info("application started....");
+		logger.info("application started.....");
 	}
 
 	public static void main(String[] args) {
-		logger.info("application executed....");
+		logger.info("application executed.....");
 		SpringApplication.run(JenkindemoApplication.class, args);
 	}
 
